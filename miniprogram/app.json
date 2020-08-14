@@ -1,0 +1,54 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/person/person",
+    "pages/map/map",
+    "pages/love/love",
+    "pages/love/saylove/saylove",
+    "pages/work/work",
+    "pages/work/abwork/abwork",
+    "pages/secondHand/secondHand",
+    "pages/secondHand/show/show",
+    "pages/lostFound/lostFound",
+    "pages/lostFound/found/found",
+    "pages/lostFound/lost/lost",
+    "pages/active/active",
+    "pages/active/schoolactive/schoolactive",
+    "pages/fix/fix",
+    "pages/fix/sushe/sushe",
+    "pages/welcome/welcome",
+    "pages/informations/work-info/work-info",
+    "pages/question/question",
+    "pages/informations/love-info/love-info",
+    "pages/informations/secondHand-info/secondHand-info",
+    "pages/Mycollection/Mycollection",
+    "pages/ResetPassword/ResetPassword"
+  ],
+  "sitemapLocation": "sitemap59.json",
+  "window": {
+    "navigationBarBackgroundColor": "#6495ED",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "华广校园生活",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tarbar/index.png",
+        "selectedIconPath": "assets/tarbar/index@active.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "更多",
+        "iconPath": "assets/tarbar/more.png",
+        "selectedIconPath": "assets/tarbar/more@active.png"
+      }
+    ]
+  }
+}
